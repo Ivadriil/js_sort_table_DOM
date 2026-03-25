@@ -19,7 +19,7 @@ headTable.addEventListener('click', (e) => {
       let argA = a.children[cellIndex].textContent.trim();
       let argB = b.children[cellIndex].textContent.trim();
 
-      if (link.cellIndex > 1) {
+      if (cellIndex > 1) {
         argA = Number(argA.replace(/[$,]/g, ''));
         argB = Number(argB.replace(/[$,]/g, ''));
 
